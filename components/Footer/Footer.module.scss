@@ -1,0 +1,57 @@
+@import "../../Styless/functions";
+@import "../../Styless/mixins";
+
+.footer {
+  height: $navbar-height;
+  background-color: $navbar-dark;
+  color: $text-link-dark;
+
+  // @include themify() {
+  //   background-color: themed("navbar-color");
+  // }
+  @include flex-center;
+
+  z-index: 2;
+  position: absolute;
+  width: 100%;
+
+  &__resume {
+    // border: 1px solid green;
+    width: 110px;
+
+    @include flex-start;
+    flex-direction: column;
+    &__link {
+      @include themify() {
+        color: themed("text-link");
+      }
+      font-size: toRem($link-text-size);
+      font-weight: bold;
+      text-decoration: none;
+      cursor: pointer;
+    }
+  }
+
+  &__credits {
+    width: 110px;
+    @include flex-start;
+    flex-direction: column;
+    @include themify() {
+      color: themed("text-link");
+    }
+    font-size: toRem($link-text-size);
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+    // border: 1px solid yellowgreen;
+  }
+
+  &__socialIcons {
+    width: 110px;
+    @include flex-around;
+    color: white;
+  }
+  a {
+    color: white;
+  }
+}

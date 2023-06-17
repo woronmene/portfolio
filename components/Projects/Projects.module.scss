@@ -1,0 +1,23 @@
+@import "../../Styless/mixins";
+
+// @import "../../Styless/functions";
+
+.projects {
+  position: relative;
+  background-color: $bg-body-dark;
+  // @include themify() {
+  //   background-color: themed("bg-body");
+  // }
+  // border: 1px solid red;
+  min-height: 100vh;
+  padding-top: 180px;
+  border-bottom: 1px solid $navbar-border-dark;
+
+  &__content {
+    width: 100%;
+    // border: 2px solid gray;
+
+    @include flex-around;
+    flex-wrap: wrap;
+  }
+}

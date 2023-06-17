@@ -1,0 +1,27 @@
+@import "../../Styless/functions";
+@import "../../Styless/mixins";
+
+.sidebar {
+  position: fixed;
+  width: $navbar-height;
+  height: 100vh;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  border: 1px solid $navbar-border-dark;
+  @include smMaxBreakPoint {
+    display: none;
+  }
+  @include flex-center;
+  &__socialIcons {
+    height: 120px;
+    @include flex-around;
+    flex-direction: column;
+    // border: 1px solid red;
+    color: white;
+  }
+
+  a {
+    color: white;
+  }
+}

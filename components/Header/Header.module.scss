@@ -1,0 +1,47 @@
+@import "../../Styless/mixins";
+@import "../../Styless/functions";
+
+.header {
+  padding-top: $navbar-height;
+
+  @include themify() {
+    background-color: themed("bg-header");
+  }
+  height: 100vh;
+
+  border-bottom: 1px solid rgba($color: #4e4d4d, $alpha: 0.4);
+  &__content {
+    height: 100%;
+    flex-direction: column;
+    @include flex-start;
+
+    &__text {
+      height: 90%;
+      width: 95%;
+
+      margin: 0 auto;
+      @include themify() {
+        color: themed("text-header");
+      }
+
+      @include flex-center;
+
+      @include xlMaxBreakPoint {
+        width: 80%;
+        padding: 20px;
+      }
+      @include xlMaxBreakPoint {
+        width: 90%;
+        padding: 20px;
+      }
+      @include smMaxBreakPoint {
+        width: 100%;
+        padding: 0px;
+      }
+    }
+  }
+
+  @include smMaxBreakPoint {
+    height: 90vh;
+  }
+}
