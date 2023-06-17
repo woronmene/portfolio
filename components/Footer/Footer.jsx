@@ -18,7 +18,7 @@ function Footer() {
 
         {/* footer center */}
         <div className={styles.footer__credits}>
-          <p>Made by Woron</p>
+          <p>Made by me 🌟</p>
         </div>
 
         {/* footer right */}

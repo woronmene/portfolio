@@ -48,24 +48,23 @@ function About() {
         >
           <motion.h2 variants={childrenVariant}>{"Hi 👋 I'm Woron"}</motion.h2>
           <motion.p variants={childrenVariant}>
-            🎨 With over 5 years of dedicated experience, I have a genuine
-            passion for creating beautiful user interfaces that leave a lasting
-            impact. 👨‍💻 I obsess over the tiniest details, ensuring that every
-            pixel is perfectly placed, resulting in visually captivating
-            websites. 🖥️💫
+            With over 5 years of dedicated experience, I have a genuine passion
+            for creating beautiful user interfaces that leave a lasting impact.
+            I obsess over the tiniest details, ensuring that every pixel is
+            perfectly placed, resulting in visually captivating websites. 🖥️💫
           </motion.p>
           <motion.p variants={childrenVariant}>
-            {`  🚀 I'm armed with a deep well of technical expertise, allowing me to
+            {` I'm armed with a deep well of technical expertise, allowing me to
             bring your web visions to life with seamless functionality and
             exceptional user experiences. From smooth navigation to responsive
             designs, I strive to create interfaces that effortlessly engage and
-            delight your audience. ✨🌐`}
+            delight your audience.`}
           </motion.p>
           <motion.p variants={childrenVariant}>
-            {`      💡 I'm always on the lookout for the latest industry trends and
+            {` I'm always on the lookout for the latest industry trends and
             cutting-edge technologies. By blending creativity and innovation, I
             ensure that your website stands out from the crowd. I'm here to make
-            your online presence shine! 📚🚀`}
+            your online presence shine!`}
           </motion.p>
           <motion.p variants={childrenVariant}>
             {`     🌟 Ready to take your online presence to the next level? Get in touch with me today, and let's work together to bring your web dreams to life. The magic begins when we join forces! 🔥🌟`}
