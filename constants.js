@@ -36,7 +36,7 @@ export const projects = [
       "https://firebasestorage.googleapis.com/v0/b/reddit-clone-49ba5.appspot.com/o/demoPhoto.png?alt=media&token=4a9a054d-70a4-430d-9589-41d7e28ca9f4",
     technologies: ["Next.js", "ChakraUI", "Sass", "AWS"],
     description:
-      "This project serves as a delightful demonstration of shoppable video technology on the web. Explore how products seamlessly intertwine with engaging videos, offering an innovative and immersive shopping experience. 🌐✨",
+      "This project demonstrates shoppable video technology on the web. Explore how products seamlessly intertwine with engaging videos, offering an innovative and immersive shopping experience.🌐✨",
     github: "",
   },
 ];
