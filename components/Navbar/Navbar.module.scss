@@ -38,10 +38,14 @@
     width: 80px;
     @include flex-between;
 
-    .navbar__theme {
-      width: 15px;
-      height: 15px;
-      border-radius: 50%;
+    @include mdMaxBreakPoint {
+      display: none;
     }
+  }
+
+  .navbar__theme {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
   }
 }

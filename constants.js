@@ -16,7 +16,7 @@ export const projects = [
       "https://firebasestorage.googleapis.com/v0/b/reddit-clone-49ba5.appspot.com/o/marketplacephoto2.png?alt=media&token=735e270d-66f0-44b5-940c-59be1d4a7366",
     technologies: ["Next.js", "ChakraUI", "AWS"],
     description:
-      "This marketplace brings together creators and retailers in a vibrant platform, fostering fruitful collaborations and collective earning opportunities. Experience the power of synergy as creators and retailers unite to create something extraordinary. 🤝✨. (Requires a passcode, available on request)",
+      "This marketplace brings together creators and retailers in a vibrant platform, fostering fruitful collaborations and collective earning opportunities. 🤝✨. (Requires a passcode, available on request)",
     github: "",
   },
   {
