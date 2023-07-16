@@ -48,9 +48,9 @@ function About() {
         >
           <motion.h2 variants={childrenVariant}>{"Hi 👋 I'm Woron"}</motion.h2>
           <motion.p variants={childrenVariant}>
-            With over 5 years of dedicated experience, I have a genuine passion
-            for creating beautiful user interfaces that leave a lasting impact.
-            I obsess over the tiniest details, ensuring that every pixel is
+            With 5 years of dedicated experience, I have a genuine passion for
+            creating beautiful user interfaces that leave a lasting impact. I
+            obsess over the tiniest details, ensuring that every pixel is
             perfectly placed, resulting in visually captivating websites. 🖥️💫
           </motion.p>
           <motion.p variants={childrenVariant}>

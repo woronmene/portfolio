@@ -31,13 +31,8 @@ function Navbar() {
           </p>
         </div>
         <p className={styles.logo}>woron.dev</p>
-
         {/* navbar right */}
-
         <div className={styles.navbar__themes}>
-          {/* <div className="navbar__theme global__yellow"></div>
-          <div className="navbar__theme global__green"></div>
-          <div className="navbar__theme global__pink"></div> */}
         </div>
       </div>
     </motion.div>
