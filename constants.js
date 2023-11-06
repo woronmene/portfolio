@@ -1,12 +1,12 @@
 export const projects = [
   {
-    name: "Cravve.ai Chrome Extension ",
+    name: "Cravve Chrome Extension",
     link: "https://chrome.google.com/webstore/detail/cravveai/oklnlgogdhppeijnkplmhlecjlnnphba",
     image:
       "https://firebasestorage.googleapis.com/v0/b/reddit-clone-49ba5.appspot.com/o/cravve.png?alt=media&token=d7f8d9d3-f913-491c-b159-1ae106a9d682&_gl=1*4q85g0*_ga*MjEwNzUwODU4Ni4xNjk1MTUyNTcx*_ga_CW55HF8NVT*MTY5ODk0MDUxOC4xNS4xLjE2OTg5NDEyOTQuNjAuMC4w",
     technologies: ["Javascript", "Css", "Html"],
     description:
-      "This dashboard exemplifies a meticulous attention to detail, providing a comprehensive and user-friendly interface for data visualization. 📈🧠",
+      "Cravve’s AI-powered web extension and app revolutionise the way you shop by seamlessly integrating your online video experience with product discovery and acquisition. Whether you’re watching videos on platforms like YouTube or other streaming services, our innovative solution allows you to effortlessly identify and purchase products that captivate your interest.",
     github: "",
   },
  
